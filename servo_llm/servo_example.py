@@ -7,7 +7,7 @@ from gpiozero import Servo
 
 servo = Servo(17)
 
-client = OpenAI(api_key="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")
+client = OpenAI()
 unified_library_truncs = ["sleep", "servo.min", "print", "servo.max"]
 unified_library = ["sleep(seconds)", "servo.min()", "servo.max()", "print(text)"]
 
