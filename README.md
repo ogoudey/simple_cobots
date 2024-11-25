@@ -6,6 +6,6 @@ This directory is the codebase for a configuration with a RaspberryPi and a serv
 
 In order to have access to the pins on the RaspberryPi AND use the python virtual environment, run
 ```
-sudo path/to/venv/python servo_llm/servo_example.py
+sudo path/to/venv/bin/python servo_llm/servo_example.py
 ```
 Then in the input field type messages, and have it respond with text and motor movements.
